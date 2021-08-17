@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/memoir_ig"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/memoir" />
+
+        <TextView
+            android:id="@+id/tv_viewMovie"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="View Movie Details"
+            android:textColor="#7E4432"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/tv_nameMovie"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_marginTop="10dp"
+            android:text="Movie Name"
+            android:gravity="center"
+            android:textColor="#7E4432"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tv_genre"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Movie Genre"
+            android:textColor="#232222"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/tv_cast"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Movie cast"
+            android:textColor="#232222"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/tv_release_date"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Movie Release Date"
+            android:textColor="#151414"
+            android:textSize="10dp" />
+        <TextView
+            android:id="@+id/tv_country"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Movie country"
+            android:textColor="#232222"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/tv_director"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Movie director"
+            android:textColor="#232222"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/tv_story"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Movie Story"
+            android:textColor="#232222"
+            android:textSize="10dp" />
+
+
+        <RatingBar
+            android:id="@+id/Rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:numStars="5"
+            android:stepSize="0.5" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

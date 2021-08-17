@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Welcome"
+            android:gravity="center"
+            android:textSize="50dp"/>
+
+        <TextView
+            android:id="@+id/tv_userfname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="User Name"
+            android:gravity="center"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+        <TextView android:id="@+id/tv_movieMemoir"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="20dp"
+            android:text="Movie Memoir"
+            android:gravity="center"
+            android:textSize="30dp"/>
+
+
+        <ImageView
+            android:id="@+id/memoir_ig"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/memoir"/>
+
+    <TextView
+        android:id="@+id/tv_currentdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:text="DD/MM/YYYY"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <ListView
+        android:id="@+id/listViewTopfive"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_height="match_parent" />
+
+
+
+</LinearLayout>

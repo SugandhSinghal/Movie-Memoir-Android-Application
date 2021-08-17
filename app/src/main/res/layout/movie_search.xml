@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/memoir_ig"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/memoir" />
+
+    <TextView
+        android:id="@+id/tv_searchMovie"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="Movie Search"
+        android:textColor="#7E4432"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/et_searchMovie"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:text="Enter Movie"
+        android:textSize="10dp" />
+
+
+    <Button
+        android:id="@+id/bt_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textColor="#703725"
+        android:text="Search" />
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/list"/>
+
+
+
+
+</LinearLayout>

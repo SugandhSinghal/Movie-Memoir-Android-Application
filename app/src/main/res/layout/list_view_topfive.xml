@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/Moviename"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:text="Movie Name" />
+    <TextView
+        android:id="@+id/Releasedate"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="Release Date" />
+    <TextView
+        android:id="@+id/Rating"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:text="Rating" />
+</LinearLayout>

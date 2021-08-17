@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_addtomemoir"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="Add To Memoir"
+        android:textColor="#7E4432"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_nameMovie"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_marginTop="10dp"
+        android:text="Movie Name"
+        android:gravity="center"
+        android:textColor="#7E4432"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/Ig_movie_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/tv_release_date"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_marginTop="10dp"
+        android:text="Release Date"
+        android:gravity="center"
+        android:textColor="#7E4432"
+        android:textSize="12dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+        <Button
+            android:id="@+id/Watchdate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Select Watch Date" />
+
+        <TextView android:id="@+id/tv_watchDate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="8dp"
+            android:text="DD/MM/YYYY"
+            android:gravity="center"
+            android:textSize="16dip"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_watchTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Please Enter Watch Time" />
+
+    <EditText
+        android:id="@+id/et_watchTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <Spinner
+        android:id="@+id/sp_cinema"
+        android:layout_width="187dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <Button
+        android:id="@+id/AddCinema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Cinema" />
+
+    <TextView
+        android:id="@+id/tv_Comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Please Add your Comment" />
+
+    <EditText
+        android:id="@+id/et_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <RatingBar
+        android:id="@+id/Rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:numStars="5"
+        android:stepSize="0.5" />
+
+    <Button
+        android:id="@+id/AddinMemoir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Add to Memoir" />
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

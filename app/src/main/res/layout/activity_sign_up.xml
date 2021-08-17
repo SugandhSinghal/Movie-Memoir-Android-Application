@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="2dp"
+    android:paddingTop="2dp">
+
+    <TextView
+        android:id="@+id/tv_signup"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="Register"
+        android:textColor="#7E4432"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_fname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Please enter First Name:" />
+    <EditText
+        android:id="@+id/et_fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+    <TextView
+        android:id="@+id/tv_lname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Please enter Last Name:" />
+    <EditText
+        android:id="@+id/et_lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+    <RadioGroup
+        android:id="@+id/radio_grp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/gender_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="15dp"
+            android:text="Gender:"
+            android:textSize="14sp" />
+        <RadioButton
+            android:id="@+id/male_radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Female" />
+
+        <RadioButton
+            android:id="@+id/female_radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Male" />
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+        <Button
+            android:id="@+id/btn_dob"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Select DOB" />
+
+        <TextView android:id="@+id/tv_dob"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="8dp"
+            android:text="DD/MM/YYYY"
+            android:gravity="center"
+            android:textSize="16dip"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Please enter Address:" />
+    <EditText
+        android:id="@+id/et_Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+    <TextView
+        android:id="@+id/tv_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Please enter State:" />
+
+    <Spinner
+        android:id="@+id/sp_states"
+        android:layout_width="187dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_postcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Please enter Postcode:" />
+    <EditText
+        android:id="@+id/et_postcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+    <TextView
+        android:id="@+id/tv_su_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Please enter Username" />
+    <EditText
+        android:id="@+id/et_su_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tv_su_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Please enter Password" />
+    <EditText
+        android:id="@+id/et_su_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/add_button_register"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_gravity="end"
+        android:text="Register" />
+
+
+    <TextView android:id="@+id/re_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="20dp"
+        android:text="Already Registered? Login"
+        android:gravity="center"
+        android:textSize="16dip"/>
+
+
+</LinearLayout>
+</ScrollView>
